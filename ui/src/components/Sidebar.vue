@@ -1,8 +1,8 @@
 <template>
-  <section>
-    <section class="logo-container">
-      <img src="../assets/logo.png">
-    </section>
+  <section id="sidebar">
+    <div class="logo-container">
+      <img src="../assets/logo.png" id="logo">
+    </div>
     <b-menu>
       <b-menu-list>
         <b-menu-item icon="information-outline" label="Info"></b-menu-item>
@@ -68,5 +68,16 @@ export default {
 .logo-container {
   background: transparent linear-gradient(114deg, #D9000F 0%, #EA5703 51%, #EBAE1D 100%) 0% 0% no-repeat padding-box;
 opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  margin-top: 6px;
+  margin-bottom: 13px;
+}
+
+#sidebar {
+  background-color: #FFFFFF;
 }
 </style>
