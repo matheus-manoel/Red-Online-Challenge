@@ -1,7 +1,11 @@
 <template>
-  <div>
-    <Sidebar />
-    <StudentPanel />
+  <div class="columns">
+    <div class="column">
+      <Sidebar />
+    </div>
+    <div class="column is-four-fifths">
+      <StudentPanel />
+    </div>
   </div>
 </template>
 
