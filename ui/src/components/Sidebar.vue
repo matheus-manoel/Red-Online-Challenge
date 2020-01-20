@@ -79,5 +79,6 @@ opacity: 1;
 
 #sidebar {
   background-color: #FFFFFF;
+  min-height: 100vh;
 }
 </style>

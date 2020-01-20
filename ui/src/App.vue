@@ -1,10 +1,10 @@
 <template>
   <div class="columns">
     <div class="column is-2" id="sidebar-container">
-      <Sidebar />
+      <Sidebar class="bottom-right-shadow"/>
     </div>
     <div class="column" id="content-container">
-      <Navbar />
+      <Navbar class="bottom-right-shadow"/>
       <StudentPanel />
     </div>
   </div>
@@ -26,13 +26,6 @@ export default {
 </script>
 
 <style>
-@font-face {
-  font-family: 'proximaNova';
-  src:  url('./assets/fonts/proxima-nova.otf') format('otf');
-  font-weight: normal;
-  font-style: normal;
-}
-
 html {
   background-color: #FFFBEF;
   min-height: 100vh;
@@ -40,6 +33,10 @@ html {
 
 body {
   min-height: 100vh;
+}
+
+.bottom-right-shadow {
+  box-shadow: 6px 6px 6px #7F63F426;
 }
 
 .columns {
