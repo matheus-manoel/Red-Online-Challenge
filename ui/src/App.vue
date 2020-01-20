@@ -26,6 +26,13 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: 'proximaNova';
+  src:  url('./assets/fonts/proxima-nova.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   background-color: #FFFBEF;
   min-height: 100vh;
