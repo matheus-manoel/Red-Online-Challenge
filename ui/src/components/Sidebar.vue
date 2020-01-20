@@ -5,12 +5,19 @@
     </div>
     <b-menu>
       <b-menu-list>
-        <span class="icon-home" />
-        <b-icon pack="redonicons" icon="icon-home"></b-icon>
-        <b-menu-item icon-pack="redonicons" icon="icon-home" label="Info"></b-menu-item>
+        <!--<span class="icon-home" />
+        <b-icon pack="redonicons" icon="icon-home"></b-icon>-->
+        <b-menu-item icon-pack="redonicons" icon="icon-home" label="Painel"></b-menu-item>
+        <b-menu-item icon="a" label="Minhas Redações"></b-menu-item>
+        <b-menu-item icon="a" label="Propostas"></b-menu-item>
+        <b-menu-item icon="a" label="Simulados"></b-menu-item>
       </b-menu-list>
       <b-menu-list label="Biblioteca">
-        <b-menu-item icon="information-outline" label="Info"></b-menu-item>
+        <b-menu-item icon="information-outline" label="Videoaulas"></b-menu-item>
+        <b-menu-item icon="information-outline" label="Materias"></b-menu-item>
+        <b-menu-item icon="information-outline" label="Coletâneas"></b-menu-item>
+        <b-menu-item icon="information-outline" label="Folhas de Redação"></b-menu-item>
+        <b-menu-item icon="information-outline" label="Tutoriais"></b-menu-item>
       </b-menu-list>
     </b-menu>
   </section>
@@ -41,13 +48,29 @@ export default {
 }
 </script>
 
-<style scoped>
-@import "https://file.myfontastic.com/SBqPSxgJ9ZpScWYRpfw4ga/icons.css";
+<style>
+.menu-list a {
+  border-radius: 0;
+}
+
+.menu-list a {
+  color: #B3AFB3;
+}
+
+.menu-list a.is-active {
+  background: #F5B40026 0% 0% no-repeat padding-box;
+  opacity: 1;
+  color: #A5220C;
+  border-left: 5px solid #EC8700;
+  padding-left: 7px;
+}
 </style>
 
-<style>
+<style scoped>
+@import "https://file.myfontastic.com/SBqPSxgJ9ZpScWYRpfw4ga/icons.css";
+
 .logo-container {
-  background: transparent linear-gradient(114deg, #D9000F 0%, #EA5703 51%, #EBAE1D 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(114deg, #EBAE1D 0%, #EA5703 51%, #D9000F 100%) 0% 0% no-repeat padding-box;
   opacity: 1;
   display: flex;
   justify-content: center;
@@ -61,5 +84,10 @@ export default {
 #sidebar {
   background-color: #FFFFFF;
   min-height: 100vh;
+}
+
+.menu-label {
+  padding-left: 10px;
+  border-radius: 0;
 }
 </style>
