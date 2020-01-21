@@ -7,8 +7,14 @@
     <div class="tile is-ancestor">
       <div class="tile is-parent is-7">
         <article class="tile is-child card">
-          <p class="title">Hello World</p>
-          <p class="subtitle">What is up?</p>
+          <p class="subtitle">Acesse A Biblioteca:</p>
+          <div class="library-options">
+            <LibraryOption />
+            <LibraryOption />
+            <LibraryOption />
+            <LibraryOption />
+            <LibraryOption />
+          </div>
         </article>
       </div>
       <div class="tile is-parent">
@@ -43,8 +49,13 @@
 </template>
 
 <script>
+import LibraryOption from './LibraryOption'
+
 export default {
   name: 'StudentPanel',
+  components: {
+    LibraryOption,
+  },
 }
 </script>
 
@@ -66,5 +77,14 @@ export default {
 #hello-msg {
   color: #A5220C;
   font-weight: bold;
+}
+
+.card {
+  padding: 45px 66px;
+}
+
+.library-options {
+  display: flex;
+  flex-direction: row;
 }
 </style>
