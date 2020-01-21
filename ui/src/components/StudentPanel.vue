@@ -31,14 +31,12 @@
       </div>
       <div class="tile is-parent">
         <article class="tile is-child card">
-          <p class="title">Foo</p>
-          <p class="subtitle">Bar</p>
+          <OptionCard />
         </article>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child card">
-          <p class="title">Foo</p>
-          <p class="subtitle">Bar</p>
+          <OptionCard />
         </article>
       </div>
     </div>
