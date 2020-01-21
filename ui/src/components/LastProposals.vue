@@ -1,24 +1,19 @@
 <template>
   <section>
     <div class="section-container">
-      <div class="columns">
-        <div class="column is-11 title-column" id="title-column">
-          <p>Caminhos para a melhoria da segurança pública no Brasil</p>
-        </div>
-        <div class="column subitem-column">
-          <p>ENEM</p>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-11 title-column" id="title-column">
-          <p>Caminhos para a melhoria da segurança pública no Brasil</p>
-        </div>
-        <div class="column subitem-column">
-          <p>ENEM</p>
+      <div v-for="i in 5" v-bind:key="i">
+        <div class="columns">
+          <div class="column is-narrow title-column" id="title-column">
+            <p>Caminhos para a melhoria da segurança pública no Brasil</p>
+          </div>
+          <div class="column subitem-column has-text-right">
+            <p>ENEM</p>
+          </div>
         </div>
       </div>
     </div>
     <div class="section-info">
+      <p class="subtitle">Últimas Propostas</p>
     </div>
   </section>
 </template>
@@ -37,14 +32,14 @@ export default {
 .section-container {
   background: transparent linear-gradient(110deg, #7596F6 0%, #69ABF5 100%) 0% 0% no-repeat padding-box;
   color: #FFFFFF;
-  padding: 12px 12px;
+  padding: 10px 20px;
 }
 
 .title-column {
-  padding: 0;
+  padding: 3px 0;
 }
 
 .subitem-column {
-  padding: 0;
+  padding: 3px 0;
 }
 </style>

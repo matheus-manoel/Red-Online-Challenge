@@ -36,7 +36,7 @@ body {
   font-family: proximaNova;
   font-weight: normal;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 0.91rem;
 }
 
 .bottom-right-shadow {
