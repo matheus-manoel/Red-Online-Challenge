@@ -92,6 +92,17 @@ export default {
   border-left: 5px solid #EC8700;
   padding-left: 7px;
 }
+
+.icon.is-small {
+  margin-left: 10px;
+  margin-right: 15px;
+  margin-top: 3px !important;
+}
+
+.redonicos, span {
+  display: inline-block;
+  vertical-align: middle;
+}
 </style>
 
 <style scoped>
