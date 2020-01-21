@@ -26,8 +26,7 @@
     <div class="tile is-ancestor">
       <div class="tile is-parent">
         <article class="tile is-child card">
-          <p class="title">Hello World</p>
-          <p class="subtitle">What is up?</p>
+          <OptionCard />
         </article>
       </div>
       <div class="tile is-parent">
@@ -50,12 +49,14 @@
 <script>
 import LibraryOption from './LibraryOption'
 import LastProposals from './LastProposals'
+import OptionCard from './OptionCard'
 
 export default {
   name: 'StudentPanel',
   components: {
     LibraryOption,
-    LastProposals
+    LastProposals,
+    OptionCard,
   },
 }
 </script>
