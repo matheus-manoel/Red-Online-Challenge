@@ -89,6 +89,7 @@ export default {
   background: #F5B40026 0% 0% no-repeat padding-box;
   opacity: 1;
   color: #A5220C;
+  font-weight: bold;
   border-left: 5px solid #EC8700;
   padding-left: 7px;
 }

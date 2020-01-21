@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container" id="welcome-container">
-      <p>Olá, bem-vindo de volta, Gerald!</p>
+      <p id="hello-msg">Olá, bem-vindo de volta, Gerald!</p>
     </div>
     <div class="container" id="inner-content-container">
     <div class="tile is-ancestor">
@@ -61,5 +61,10 @@ export default {
 #inner-content-container {
   margin: 50px;
   background-color: #FFFBEF;
+}
+
+#hello-msg {
+  color: #A5220C;
+  font-weight: bold;
 }
 </style>
