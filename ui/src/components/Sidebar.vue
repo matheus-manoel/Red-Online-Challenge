@@ -117,6 +117,8 @@ export default {
 #logo {
   margin-top: 6px;
   margin-bottom: 13px;
+  width: 53%;
+  height: 53%;
 }
 
 #sidebar {

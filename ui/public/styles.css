@@ -1,6 +1,14 @@
 @charset "UTF-8";
 
 @font-face {
+  font-family: "proximaNova";
+  src: url("fonts/proxima-nova.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
   font-family: "redfont";
   src:url("fonts/redfont.eot");
   src:url("fonts/redfont.eot?#iefix") format("embedded-opentype"),

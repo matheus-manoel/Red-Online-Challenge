@@ -1,6 +1,6 @@
 <template>
   <div class="columns">
-    <div class="column is-2" id="sidebar-container">
+    <div class="column is-narrow" id="sidebar-container">
       <Sidebar class="bottom-right-shadow"/>
     </div>
     <div class="column" id="content-container">
@@ -33,7 +33,8 @@ html {
 
 body {
   min-height: 100vh;
-  font-size: 0.9rem;
+  font-family: proximaNova;
+  font-size: 0.8rem;
 }
 
 .bottom-right-shadow {
