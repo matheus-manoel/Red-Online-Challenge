@@ -72,7 +72,7 @@ export default {
 
 <style>
 .menu {
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .menu-list a {
@@ -81,6 +81,8 @@ export default {
 
 .menu-list a {
   color: #B3AFB3;
+  padding-top: 12px;
+  padding-top: 12px;
 }
 
 .menu-list a:hover {
@@ -93,14 +95,14 @@ export default {
   background: #F5B40026 0% 0% no-repeat padding-box;
   opacity: 1;
   color: #A5220C;
-  font-weight: bold;
+  font-family: proximaNovaSemiBold;
   border-left: 5px solid #EC8700;
   padding-left: 7px;
 }
 
 .icon.is-small {
   margin-left: 7px;
-  margin-right: 15px;
+  margin-right: 17px;
   margin-top: 3px !important;
 }
 
@@ -121,8 +123,8 @@ export default {
 #logo {
   margin-top: 6px;
   margin-bottom: 13px;
-  width: 57%;
-  height: 57%;
+  width: 60%;
+  height: 60%;
 }
 
 #sidebar {

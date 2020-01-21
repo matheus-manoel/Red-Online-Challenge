@@ -4,8 +4,12 @@
   font-family: "proximaNova";
   src: url("fonts/proxima-nova.otf") format("opentype");
   font-weight: normal;
-  font-style: normal;
+}
 
+@font-face {
+  font-family: "proximaNovaSemiBold";
+  src: url("fonts/proxima-nova-condensed-semibold.otf") format("opentype");
+  font-weight: semibold;
 }
 
 @font-face {

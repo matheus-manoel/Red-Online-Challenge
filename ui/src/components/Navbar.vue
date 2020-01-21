@@ -8,3 +8,9 @@
     </template>
   </b-navbar>
 </template>
+
+<style>
+.navbar {
+  min-height: 3.5rem;
+}
+</style>

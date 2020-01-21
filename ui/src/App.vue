@@ -34,6 +34,8 @@ html {
 body {
   min-height: 100vh;
   font-family: proximaNova;
+  font-weight: normal;
+  font-style: normal;
   font-size: 1rem;
 }
 

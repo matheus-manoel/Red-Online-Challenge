@@ -66,18 +66,17 @@ export default {
 }
 
 #welcome-container p {
-  padding: 10px;
-  padding-left: 40px;
+  padding: 5px 10px 5px 40px;
 }
 
 #inner-content-container {
-  margin: 50px;
+  margin: 40px;
   background-color: #FFFBEF;
 }
 
 #hello-msg {
   color: #A5220C;
-  font-weight: bold;
+  font-family: proximaNovaSemiBold;
 }
 
 #library-options-card {
