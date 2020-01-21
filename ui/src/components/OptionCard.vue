@@ -1,9 +1,16 @@
 <template>
     <section>
     <div class="container wrapper">
-      <div class="columns">
+      <div
+        class="columns" 
+        :class="{
+          'orange-gradient': isOrange,
+          'pink-gradient': isPink,
+          'yellow-gradient': isYellow
+        }"
+      >
         <div class="column is-6 has-text-centered icon-wrapper">
-          <span class="icon-surface" />
+          <span :class="icon" />
         </div>
         <div class="column">
         </div>
@@ -24,14 +31,25 @@ export default {
   components: {
     OptionCardInfo,
   },
-  props: ['title', 'actionName']
+  props: ['title', 'actionName', 'icon', 'isOrange', 'isPink', 'isYellow'],
 }
 </script>
 
 <style scoped>
 .columns {
-  background: transparent linear-gradient(294deg, #D9000F 0%, #EA5703 55%, #EBAE1D 100%) 0% 0% no-repeat padding-box;
   margin: 0;
+}
+
+.orange-gradient {
+  background: transparent linear-gradient(294deg, #D9000F 0%, #EA5703 55%, #EBAE1D 100%) 0% 0% no-repeat padding-box;
+}
+
+.pink-gradient {
+  background: transparent linear-gradient(294deg, #F5317F 0%, #FF7C6E 100%) 0% 0% no-repeat padding-box;
+}
+
+.yellow-gradient {
+  background: transparent linear-gradient(294deg, #FF8359 0%, #FFDF40 100%) 0% 0% no-repeat padding-box;
 }
 
 .icon-wrapper {

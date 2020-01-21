@@ -29,6 +29,8 @@
           <OptionCard
             title="Subir Nova Redação"
             actionName="Faça O Upload"
+            icon="icon-surface"
+            :isOrange="true"
           />
         </article>
       </div>
@@ -37,6 +39,8 @@
           <OptionCard
             title="Minhas Redações"
             actionName="Acessar"
+            icon="icon-note"
+            :isPink="true"
           />
         </article>
       </div>
@@ -45,6 +49,8 @@
           <OptionCard
             title="Visualizar Simulados"
             actionName="Acessar"
+            icon="icon-simulados"
+            :isYellow="true"
           />
         </article>
       </div>
