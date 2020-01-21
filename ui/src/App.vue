@@ -33,19 +33,13 @@ html {
 
 body {
   min-height: 100vh;
+  font-size: 0.9rem;
 }
 
 .bottom-right-shadow {
   box-shadow: 6px 6px 6px #7F63F426;
 }
 
-.columns {
-  margin-bottom: 0;
-}
-
-.column {
-  min-height: 100vh;
-}
 
 #sidebar-container {
   padding-right: 0;
@@ -59,3 +53,12 @@ body {
 }
 </style>
 
+<style scoped>
+.column {
+  min-height: 100vh;
+}
+
+.columns {
+  margin-bottom: 0;
+}
+</style>

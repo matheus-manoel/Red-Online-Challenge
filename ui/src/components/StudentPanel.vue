@@ -6,7 +6,7 @@
     <div class="container" id="inner-content-container">
     <div class="tile is-ancestor">
       <div class="tile is-parent is-7">
-        <article class="tile is-child card">
+        <article class="tile is-child card" id="library-options-card">
           <p class="subtitle">Acesse A Biblioteca:</p>
           <div class="library-options">
             <LibraryOption />
@@ -19,8 +19,7 @@
       </div>
       <div class="tile is-parent">
         <article class="tile is-child card">
-          <p class="title">Foo</p>
-          <p class="subtitle">Bar</p>
+          <LastProposals />
         </article>
       </div>
     </div>
@@ -50,11 +49,13 @@
 
 <script>
 import LibraryOption from './LibraryOption'
+import LastProposals from './LastProposals'
 
 export default {
   name: 'StudentPanel',
   components: {
     LibraryOption,
+    LastProposals
   },
 }
 </script>
@@ -79,7 +80,7 @@ export default {
   font-weight: bold;
 }
 
-.card {
+#library-options-card {
   padding: 45px 66px;
 }
 
