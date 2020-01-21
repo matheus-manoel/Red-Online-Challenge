@@ -26,17 +26,26 @@
     <div class="tile is-ancestor">
       <div class="tile is-parent">
         <article class="tile is-child card">
-          <OptionCard />
+          <OptionCard
+            title="Subir Nova Redação"
+            actionName="Faça O Upload"
+          />
         </article>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child card">
-          <OptionCard />
+          <OptionCard
+            title="Minhas Redações"
+            actionName="Acessar"
+          />
         </article>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child card">
-          <OptionCard />
+          <OptionCard
+            title="Visualizar Simulados"
+            actionName="Acessar"
+          />
         </article>
       </div>
     </div>

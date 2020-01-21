@@ -9,7 +9,10 @@
         </div>
       </div>
     </div>
-    <OptionCardInfo />
+    <OptionCardInfo
+      v-bind:title="title"
+      v-bind:actionName="actionName"
+    />
     </section>
 </template>
 
@@ -17,10 +20,11 @@
 import OptionCardInfo from './OptionCardInfo'
 
 export default {
-  'name': 'OptionCard',
-  'components': {
+  name: 'OptionCard',
+  components: {
     OptionCardInfo,
-  }
+  },
+  props: ['title', 'actionName']
 }
 </script>
 

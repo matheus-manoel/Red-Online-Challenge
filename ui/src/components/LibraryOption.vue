@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  'name': 'LibraryOption',
+  name: 'LibraryOption',
 }
 </script>
 

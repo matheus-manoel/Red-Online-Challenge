@@ -12,7 +12,7 @@
         </div>
       </div>
     </div>
-    <OptionCardInfo />
+    <OptionCardInfo title="Últimas Propostas" actionName="Acessar"/>
   </section>
 </template>
 

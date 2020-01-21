@@ -1,13 +1,14 @@
 <template>
   <div class="section-info">
-    <p class="subtitle">Últimas Propostas</p>
-    <a href="/">Acessar</a>
+    <p class="subtitle">{{ title }}</p>
+    <a href="/">{{ actionName }}</a>
   </div>
 </template>
 
 <script>
 export default {
-  'name': 'OptionCardInfo',
+  name: 'OptionCardInfo',
+  props: ['title', 'actionName'],
 }
 </script>
 
