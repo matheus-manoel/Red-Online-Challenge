@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="full-content-container">
     <div class="container" id="welcome-container">
       <p id="hello-msg">Olá, bem-vindo de volta, Gerald!</p>
     </div>
-    <div class="container" id="inner-content-container">
+    <div class="container is-desktop is-vcentered" id="inner-content-container">
     <div class="tile is-ancestor">
       <div class="tile is-parent is-7">
         <article class="tile is-child card" id="library-options-card">
@@ -75,8 +75,16 @@ export default {
 </script>
 
 <style>
+.full-content-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 #welcome-container {
   background-color: #FDEFD7;
+  max-height: fit-content;
+  margin: 0;
 }
 
 #welcome-container p {
@@ -86,6 +94,7 @@ export default {
 #inner-content-container {
   margin: 40px;
   background-color: #FFFBEF;
+  max-height: fit-content;
 }
 
 #hello-msg {
