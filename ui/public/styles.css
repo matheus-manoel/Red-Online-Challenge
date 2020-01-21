@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "proximaNova";
-  src: url("fonts/proxima-nova.otf") format("otf");
+  src: url("fonts/proxima-nova.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 

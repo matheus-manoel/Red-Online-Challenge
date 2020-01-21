@@ -71,6 +71,10 @@ export default {
 </script>
 
 <style>
+.menu {
+  font-size: 0.95rem;
+}
+
 .menu-list a {
   border-radius: 0;
 }
@@ -95,7 +99,7 @@ export default {
 }
 
 .icon.is-small {
-  margin-left: 10px;
+  margin-left: 7px;
   margin-right: 15px;
   margin-top: 3px !important;
 }
@@ -117,8 +121,8 @@ export default {
 #logo {
   margin-top: 6px;
   margin-bottom: 13px;
-  width: 53%;
-  height: 53%;
+  width: 57%;
+  height: 57%;
 }
 
 #sidebar {

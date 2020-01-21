@@ -34,7 +34,7 @@ html {
 body {
   min-height: 100vh;
   font-family: proximaNova;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 .bottom-right-shadow {
