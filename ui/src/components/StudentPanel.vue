@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="container" id="welcome-container">
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;Olá, bem-vindo de volta, Gerald!</p>
+      <p>Olá, bem-vindo de volta, Gerald!</p>
+      <span class="icon-home">test</span>
     </div>
     <div class="container" id="inner-content-container">
     <div class="tile is-ancestor">

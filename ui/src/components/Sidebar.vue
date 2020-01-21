@@ -5,9 +5,8 @@
     </div>
     <b-menu>
       <b-menu-list>
-        <!--<span class="icon-home" />
-        <b-icon pack="redonicons" icon="icon-home"></b-icon>-->
-        <b-menu-item icon-pack="redonicons" icon="icon-home" label="Painel"></b-menu-item>
+        <!--<b-icon pack="redonicons" icon="icon-home"></b-icon>-->
+        <b-menu-item :active="isActive" icon="icon-home" label="Painel"></b-menu-item>
         <b-menu-item icon="a" label="Minhas Redações"></b-menu-item>
         <b-menu-item icon="a" label="Propostas"></b-menu-item>
         <b-menu-item icon="a" label="Simulados"></b-menu-item>
@@ -44,7 +43,12 @@ export default {
   name: 'Sidebar',
   created() {
     this.$buefy.config.setOptions(customIconConfig)
-  }
+  },
+  data() {
+    return {
+      'isActive': true,
+    }
+  },
 }
 </script>
 
@@ -55,6 +59,12 @@ export default {
 
 .menu-list a {
   color: #B3AFB3;
+}
+
+.menu-list a:hover {
+  border-left: 5px solid #B3AFB3;
+  color: #B3AFB3;
+  padding-left: 7px;
 }
 
 .menu-list a.is-active {
